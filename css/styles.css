@@ -3,8 +3,6 @@ body{
   text-align: center;
 }
 
-.container-fluid{
-  padding: 7% 15%;
 }
 h1, h2, h3, h4, h5, h6{
   font-family: "Montserrat";
@@ -12,6 +10,23 @@ h1, h2, h3, h4, h5, h6{
 
 p{
   color: #8f8f8f;
+}
+
+/* containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* colored-section */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+color: #fff;
 }
 
 /* Headings */
@@ -33,6 +48,10 @@ p{
   font-family: Ubuntu;
   font-size: 2.5em;
 }
+
+.navbar-toggler{
+height: 125%;
+}
 .navbar{
   padding: 0 0 4.5rem;
 }
@@ -45,7 +64,6 @@ p{
   font-family: "Montserrat-Light";
 }
 
-
 /* Buttons */
 
 .Download-button{
@@ -54,14 +72,9 @@ p{
 
 /* Title-img */
 
-#title{
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
 #title .container-fluid{
   padding: 1% 15% 7%;
+  text-align: left;
 }
 .title{
   position: relative;
@@ -77,10 +90,10 @@ p{
 /* Features Section */
 
 #features{
-  background-color: #fff;
   z-index: 1;
   position: relative;
 }
+
 .feature-box{
   padding: 5%;
 }
@@ -102,7 +115,6 @@ p{
 
 #testimonials{
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text{
@@ -116,15 +128,12 @@ p{
   margin: 20px;
 }
 
-.carousel-item{
-
-}
-
 /* Press-Section */
 
 #press{
   background-color: #ef8172;
 }
+
 .press-logo{
   width: 15%;
   margin: 20px 20px 50px;
@@ -146,11 +155,6 @@ p{
 }
 
 /* Call to Action */
-
-#cta{
-  background-color: #ff4c68;
-  color: #fff;
-}
 
 /* Footer Section */
 
